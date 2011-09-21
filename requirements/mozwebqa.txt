@@ -1,8 +1,14 @@
 # This pulls in all the libraries needed to run Selenium tests
 # on the Mozilla CaseConductor project
 
-selenium
-pytest
-pytest-xdist
-pytest-mozwebqa
-unittestzero
+selenium==2.6.0
+pytest==2.1.1
+pytest-mozwebqa==0.2
+pytest-xdist==1.6
+UnittestZero==0.1.6
+
+# dependencies
+PyYAML==3.10
+execnet==1.0.9
+py==1.4.5
+rdflib==3.1.0
